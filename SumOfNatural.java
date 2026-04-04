@@ -1,8 +1,6 @@
 class SumOfNatural {
     static int natural(int n){
-        int Sum = 0;
-        Sum = (n*(n+1))/2;
-        return Sum;
+        return n*(n+1)/2;
     }
     public static void main(String[] args) {
         int n = 10;
@@ -29,7 +27,7 @@ class Sumfind {
 
 // Third way by using recursion 
 
-class FindSum [
+class FindSum {
     static int Sum(int n){
         if(n == 1)
             return 1;
@@ -39,4 +37,4 @@ class FindSum [
         int n = 10;
         System.out.println(Sum(n));
     }
-]
+}
