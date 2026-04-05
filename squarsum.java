@@ -6,11 +6,16 @@ public class squarsum {
             sum += i*i;
         return sum;
     }
-    public static int summation(int n){
-        return n*(n+1) * (2 * n*(n+1)) / 6;
-    }
      public static void main(String[] args) {
         int n = 3;
         System.out.println(sqrSum(n));
     }
 }
+
+
+// second method 
+
+ 
+    public static int summation(int n){
+        return n*(n+1) * (2 * n*(n+1)) / 6;
+    }
